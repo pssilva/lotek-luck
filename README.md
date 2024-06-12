@@ -8,7 +8,7 @@ Objetivo de Implementar várias versões usando Refatorção de algoritmos de pr
 
 Todos os resultados são mais de 50 milhões de combinações: 50.063.860
 
-## Formular Análise Combinatória
+## Fórmula Análise Combinatória
 
 <img src="docs/imgs/formula-analise-combinatoria.png" alt="Formula Analise Combinatoria" title="Formula Analise Combinatoria" style="width:475px;"/>
 
