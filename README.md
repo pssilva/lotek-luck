@@ -20,8 +20,16 @@ Procuro evidência as proficiências nas seguintes habilidades técnicas:
 - Técnicas em [Análise Código-fonte Legados](#FEATHERS-michael);
 - Técnicas em [Refatoração Código-fonte Legados](#FEATHERS-michael);
 - Implementar Soluções usando algoritmos Reutilizáveis usando:
-  - Processamento Paralelo e Concorrente nativo em Java
-  - Processamento Paralelo e Concorrente usando Framework Spring Batch;
+  - Processamento Paralelo e Concorrente:
+    - Nativo em Java SE e EE
+    - Framework Spring Batch;
+- Multiplas Arquiteturas
+  - Event Source
+  - CQRS
+- Implementar Multiplas Filas de Mesageria:
+  - RabbitMQ
+  - Kafka
+  - ActiveMQ
 - Implantação de Soluções [Sem Servidores em multipla nuvens]();
 
 
@@ -193,7 +201,7 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](LICE
 - [Devs JavaGirl BR (@DevsJavaGirlBR)](https://www.youtube.com/@DevsJavaGirlBR)
 - [Giuliana Bezerra (@giulianabezerra)](https://www.youtube.com/@giulianabezerra)
 - [Fernanda Kipper | Dev (@kipperdev)](https://www.youtube.com/@kipperdev)
-- [Loiane Groner (loianegroner)](https://www.youtube.com/@loianegroner)
+- [Loiane Groner (@loianegroner)](https://www.youtube.com/@loianegroner)
 - [RinaldoDev (@rinaldodev)](https://www.youtube.com/@rinaldodev)
 
 ---
@@ -202,11 +210,30 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](LICE
 
 Seque abaixo as referências bibliográficas usadas no presente projeto:
 
+### Livros
+
 ---
 
 <p align="justify">
 [<a id="FEATHERS-michael">MARTIN, Robert C. | FEATHERS Michael</a>]: Working Effectively with Legacy Code. Library of Congress Cataloging-in-Publication Data: 2004108115 Copyright © 2005 Pearson Education, Inc. Prentice Hall Professional Technical Reference Upper Saddle River, NJ 07458. ISBN 0-13-117705-2 (Robert C. Martin Series, número). Disponível em: < <a href="https://a.co/d/3RZL8Sl">https://a.co/d/3RZL8Sl</a> >. Acesso em: 16 Mai. 2024.
 </p>
+
+---
+
+<p align="justify">
+[<a id="GOETZ-Brian">GOETZ ,Brian; PEIERLS ,Tim; BLOCH, Joshua et al</a>]. Java Concurrency in Practice. 1 Ed. Addison-Wesley Professional; 1st edition (May 9, 2006). 432 pages. (Nome da série e/ou coleção, 978-0-321-34960-6). Disponível em: < <a href="https://a.co/d/4T05Xuz"> https://a.co/d/4T05Xuz </a> > . Acesso em: dia 12 jun. 2024.
+</p>
+
+---
+
+<p align="justify">
+<a id="Spring-Boot-and-Angular"></a>
+[DULDULAO, Devlin Basilan, VILLAFRANCA], Seiji Ralph. [<a href="https://a.co/d/htReU6n">Spring Boot and Angular: Hands-on full stack web development with Java, Spring, and Angular</a>]. 1 Ed. Birmingham B3 2PB, UK.: Packt Publishing, Copyright © 2022. 438 p. (Nome da série e/ou coleção, ISBN 978-1-80324-321-4). Disponível em: < <a href="https://a.co/d/htReU6n">https://a.co/d/htReU6n</a> >. Acesso em: 29 mai.2024.
+</p>
+
+---
+
+### Vídeos / Playlists
 
 ---
 
@@ -223,12 +250,6 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ---
 
 <p align="justify">
-[<a id="GOETZ-Brian">GOETZ ,Brian; PEIERLS ,Tim; BLOCH, Joshua et al</a>]. Java Concurrency in Practice. 1 Ed. Addison-Wesley Professional; 1st edition (May 9, 2006). 432 pages. (Nome da série e/ou coleção, 978-0-321-34960-6). Disponível em: < <a href="https://a.co/d/4T05Xuz"> https://a.co/d/4T05Xuz </a> > . Acesso em: dia 12 jun. 2024.
-</p>
-
----
-
-<p align="justify">
 [<a id="CRUD-ANGULAR-+-SPRING">CRUD ANGULAR + SPRING</a>]. Direção: Loiane Groner. Produção: Loiane Groner. Realização: Loiane Groner. Roteiro: Loiane Groner. Fotografia: N/A. Intérpretes: N/A; Loiane Groner. Local: Produzido no canal de stream Youtube,  5 de jul. de 2016 (há mais de 7 anos). Indicação do suporte físico e duração entre parênteses, demais características (tipo de sinal se vídeo, som, cor, legenda, tradução, tipo de película). Disponível em: <  <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY">https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY</a> >. Acesso em: 29 mai. 2024.
 </p>
 
@@ -238,10 +259,4 @@ NOTA: para deixar evidenciado, segue a [indexação da playlist](./docs/indexaco
 
 <p align="justify">
 [CURSO DE ANGULAR]. Direção: Loiane Groner. Produção: Loiane Groner. Realização: Loiane Groner. Roteiro: Loiane Groner. Fotografia: N/A. Intérpretes: N/A; Loiane Groner. Local: Produzido no canal de stream Youtube,  5 de jul. de 2016 (há mais de 7 anos). Indicação do suporte físico e duração entre parênteses, demais características (tipo de sinal se vídeo, som, cor, legenda, tradução, tipo de película). Disponível em: < https://youtube.com/playlist?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&si=9ETFjwYZsV1ed7bU >. Acesso em: 29 mai. 2024.
-</p>
-
----
-<p align="justify">
-<a id="Spring-Boot-and-Angular"></a>
-[DULDULAO, Devlin Basilan, VILLAFRANCA], Seiji Ralph. [<a href="https://a.co/d/htReU6n">Spring Boot and Angular: Hands-on full stack web development with Java, Spring, and Angular</a>]. 1 Ed. Birmingham B3 2PB, UK.: Packt Publishing, Copyright © 2022. 438 p. (Nome da série e/ou coleção, ISBN 978-1-80324-321-4). Disponível em: < <a href="https://a.co/d/htReU6n">https://a.co/d/htReU6n</a> >. Acesso em: 29 mai.2024.
 </p>
