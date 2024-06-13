@@ -20,8 +20,7 @@ Procuro evidência as proficiências nas seguintes habilidades técnicas:
 - Técnicas em [Análise Código-fonte Legados](#FEATHERS-michael);
 - Técnicas em [Refatoração Código-fonte Legados](#FEATHERS-michael);
 - Implementar Soluções usando algoritmos Reutilizáveis usando:
-  - Processamento Paralelo e Concorrente nativo em Java:
-    - 
+  - Processamento Paralelo e Concorrente nativo em Java
   - Processamento Paralelo e Concorrente usando Framework Spring Batch;
 - Implantação de Soluções [Sem Servidores em multipla nuvens]();
 
