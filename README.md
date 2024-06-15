@@ -2,6 +2,10 @@
 
 Se trata de um projeto prático prova de conceito POC para deixar pegadas digitais e ser próativo para os processos seletivos onde as equipes técnicas de recrutadores tenham condições e evidências para verificar se o meu perfil pode atender as necessidades das oportunidades.
 
+## IMPORTANTE
+
+Não se seja ingênuo e tenha em mente o vídeo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e forme a sua opnição!
+
 ## Visão do Projeto
 
 Objetivo de Implementar várias versões usando Refatorção de algoritmos de processamento paralelo / concorrente clusterizado que possibilite gera todos os resultados da Mega Sena e que seja possível aplicar a analisar estatisticamente os resultados da fórmula de análise combinatória! 
