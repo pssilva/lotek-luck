@@ -24,6 +24,7 @@ Todos os resultados são mais de 50 milhões de combinações: 50.063.860
 
 Procuro evidência as proficiências nas seguintes habilidades técnicas:
 
+- [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
 - Técnicas em [Análise Código-fonte Legados](#FEATHERS-michael);
 - Técnicas em [Refatoração Código-fonte Legados](#FEATHERS-michael);
 - Implementar Soluções usando algoritmos Reutilizáveis usando:
@@ -224,7 +225,7 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ---
 
 <p align="justify">
-GOODRICH, Michael T; TAMASSIA, Roberto. PROJETO DE ALGORITMOS: Fundamentos, análise e exemplos da Internet. 1 Ed. Cidade da publicação: Bookman; 1ª edição (25 março 2004), ©2002 John Wiley & Sons, Inc. 696 páginas. (Nome da série e/ou coleção, ISBN 978-85-7780-342-2). Disponível em: < <a href="https://a.co/d/3Co91c3">https://a.co/d/3Co91c3</a> >. Acesso em: 15 jun. 2024.
+[<a id="GOODRICH-Michael-T">GOODRICH, Michael T; TAMASSIA, Roberto</a>]. PROJETO DE ALGORITMOS: Fundamentos, análise e exemplos da Internet. 1 Ed. Cidade da publicação: Bookman; 1ª edição (25 março 2004), ©2002 John Wiley & Sons, Inc. 696 páginas. (Nome da série e/ou coleção, ISBN 978-85-7780-342-2). Disponível em: < <a href="https://a.co/d/3Co91c3">https://a.co/d/3Co91c3</a> >. Acesso em: 15 jun. 2024.
 </p>
 
 ---
