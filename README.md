@@ -2,9 +2,11 @@
 
 Se trata de um projeto prático prova de conceito POC para deixar pegadas digitais e ser próativo para os processos seletivos onde as equipes técnicas de recrutadores tenham condições e evidências para verificar se o meu perfil pode atender as necessidades das oportunidades.
 
-<h2 tabindex="-1" class="heading-element" dir="auto"><span style="color:red !important; background-color:yellow !important;">IMPORTANTE</span></h2>
+## <span style="color:red !important; background-color:yellow !important;">IMPORTANTE</span>
 
-Não se seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e formente a sua opnição!
+Não se seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e formente a sua opnição! 
+
+O divertido aqui é desenvolver as [proficiências](#proficiências) na prática.
 
 ## Visão do Projeto
 
@@ -17,6 +19,8 @@ Todos os resultados são mais de 50 milhões de combinações: 50.063.860
 <img src="docs/imgs/formula-analise-combinatoria.png" alt="Formula Analise Combinatoria" title="Formula Analise Combinatoria" style="width:475px;"/>
 
 --- 
+
+## Proficiências
 
 Procuro evidência as proficiências nas seguintes habilidades técnicas:
 
