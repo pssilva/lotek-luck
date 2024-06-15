@@ -2,9 +2,9 @@
 
 Se trata de um projeto prático prova de conceito POC para deixar pegadas digitais e ser próativo para os processos seletivos onde as equipes técnicas de recrutadores tenham condições e evidências para verificar se o meu perfil pode atender as necessidades das oportunidades.
 
-## IMPORTANTE
+## <span style="color:red" >IMPORTANTE</span>
 
-Não se seja ingênuo e tenha em mente o vídeo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e forme a sua opnição!
+Não se seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e formente a sua opnição!
 
 ## Visão do Projeto
 
