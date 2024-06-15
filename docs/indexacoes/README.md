@@ -20,8 +20,8 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 
 ### Status Parcialmente Idexadas
 
-* [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaça !
-* [PLAYLIST – 11 vídeos – 03.04.07.18.02.41.03 – Tutoriais Spring Batch – Giuliana Bezerra – Questões](PLAYLIST%20–%2011%20vídeos%20–%2003.04.07.18.02.41.03%20–%20Tutoriais%20Spring%20Batch%20–%20Giuliana%20Bezerra%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaça !
+* [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
+* [PLAYLIST – 11 vídeos – 03.04.07.18.02.41.03 – Tutoriais Spring Batch – Giuliana Bezerra – Questões](PLAYLIST%20–%2011%20vídeos%20–%2003.04.07.18.02.41.03%20–%20Tutoriais%20Spring%20Batch%20–%20Giuliana%20Bezerra%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
 
 ---
 

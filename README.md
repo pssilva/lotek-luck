@@ -16,7 +16,6 @@ Todos os resultados são mais de 50 milhões de combinações: 50.063.860
 
 Procuro evidência as proficiências nas seguintes habilidades técnicas:
 
-- [Angular Framework](https://angular.io/);
 - Técnicas em [Análise Código-fonte Legados](#FEATHERS-michael);
 - Técnicas em [Refatoração Código-fonte Legados](#FEATHERS-michael);
 - Implementar Soluções usando algoritmos Reutilizáveis usando:
@@ -31,7 +30,7 @@ Procuro evidência as proficiências nas seguintes habilidades técnicas:
   - Kafka
   - ActiveMQ
 - Implantação de Soluções [Sem Servidores em multipla nuvens]();
-
+- [Angular Framework](https://angular.io/);
 
 Projeto inicializado com o [`Scripts de automação próprio`]().
 
@@ -91,7 +90,7 @@ cd "${HOME}/projetos/lotek-luck"
 
 ## Implantar no Heroku
 
-A maneira mais fácil de implantar seu aplicativo Angular é usar a [Plataforma do Heroku](https://devcenter.heroku.com/start) dos criadores do [Os Doze Fatores (The Twelve-Factor App)](https://12factor.net/pt_br/).
+A maneira mais fácil de implantar seu aplicativo é usar a [Plataforma do Heroku](https://devcenter.heroku.com/start) dos criadores dos princípios: [Os Doze Fatores (The Twelve-Factor App)](https://12factor.net/pt_br/).
 
 Confira [documentação de implantação do Heroku](https://devcenter.heroku.com/start) para mais detalhes.
 
@@ -106,8 +105,10 @@ Aqui temos uma lista do que idenficamos com status de pendente:
 Segue abaixo (não se limita) os objetivos do presente projeto:
 
 - [X] ~~Formatando documentação README.md~~
-- [X] ~~Indexação completa dp vídeo longo: [VIDEO LONGO 5245 – 03.04.07.18.02.41.03 – O que você deveria saber sobre Spring Batch? – Questões](docs/indexacoes/VIDEO%20LONGO%205245%20–%2003.04.07.18.02.41.03%20–%20O%20que%20você%20deveria%20saber%20sobre%20Spring%20Batch?%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
+- [X] ~~Indexação completa do vídeo longo: [VIDEO LONGO 5245 – 03.04.07.18.02.41.03 – O que você deveria saber sobre Spring Batch? – Questões](docs/indexacoes/VIDEO%20LONGO%205245%20–%2003.04.07.18.02.41.03%20–%20O%20que%20você%20deveria%20saber%20sobre%20Spring%20Batch?%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Indexação completa da playlist: [PLAYLIST 58 vídeos – 03.04.07.12.09 – CRUD Angular + Spring – Questões](docs/indexacoes/PLAYLIST%2058%20vídeos%20–%2003.04.07.12.09%20–%20CRUD%20Angular%20+%20Spring%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
+- [X] Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
+- [ ] Modeloagem 
 - [ ] Descrição sucinta da tarefa a ser feita aqui ......
 - [ ] Descrição sucinta [TRABALHO EM PROGRESSO]
 
@@ -211,6 +212,12 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](LICE
 Seque abaixo as referências bibliográficas usadas no presente projeto:
 
 ### Livros
+
+---
+
+<p align="justify">
+GOODRICH, Michael T; TAMASSIA, Roberto. PROJETO DE ALGORITMOS: Fundamentos, análise e exemplos da Internet. 1 Ed. Cidade da publicação: Bookman; 1ª edição (25 março 2004), ©2002 John Wiley & Sons, Inc. 696 páginas. (Nome da série e/ou coleção, ISBN 978-85-7780-342-2). Disponível em: < <a href="https://a.co/d/3Co91c3">https://a.co/d/3Co91c3</a> >. Acesso em: 15 jun. 2024.
+</p>
 
 ---
 
