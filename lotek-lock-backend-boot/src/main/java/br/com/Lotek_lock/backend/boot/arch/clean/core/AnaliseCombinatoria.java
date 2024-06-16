@@ -17,11 +17,12 @@ public final class AnaliseCombinatoria {
      *
      * @return resultado do calculo da analise combinatória
      *
-     * @throws ArithmeticException no caso do denomidor se igular a zero
+     * @throws ArithmeticException no caso do denomidor se igualar a zero
      * @throws IllegalArgumentException nos casos que o tamanho não atendam os requisitos!
      *
      */
     public static BigInteger c(final Integer n, final Integer k){
+
 
         //TODO Validação com trabalho em progresso
         if (Objects.equals(n, 0)

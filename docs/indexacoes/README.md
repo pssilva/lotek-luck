@@ -2,6 +2,8 @@
 
 Tendo em mente em aplicar efetivamente a prendizagem continuada (#livelonglearning). 
 
+Aplicando efetivamente na prática a mentalidade de aprendizagem continuada (#livelonglearning).
+
 Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelera (revisão espaçada). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.
 
 E depois se relacionar a indexação com um questionário de contexto onde se busca associar ou relacionar os conceitos com um plano de ação operaiconal de trabalho. E com isso ter condição de criar scritps de automação ou mesmo aplicar o PDCA nas rotinas de trabalho já estabelacidas!
