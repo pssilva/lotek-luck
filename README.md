@@ -51,6 +51,14 @@ De que coisas precisamos para instalar o software e como instalá-lo?
 
 ```bash
 ##############################################
+# Instalação o SDKMAN no Fedora
+##############################################
+curl -s get.sdkman.io | bash
+source "${HOME}/.sdkman/bin/sdkman-init.sh"
+sdk version
+##############################################
+
+##############################################
 # Instalação do NodeJS no Fedora
 ##############################################
 sudo dnf install nodejs.x86_64
@@ -94,6 +102,7 @@ Em um terminal execute a aplicação com os seguintes comandos:
 
 ```bash
 cd "${HOME}/projetos/lotek-luck"
+mvn clean install
 
 ```
 
