@@ -4,7 +4,7 @@ Se trata de um projeto prático prova de conceito POC para deixar pegadas digita
 
 ## <span style="color:red !important; background-color:yellow !important;">IMPORTANTE</span>
 
-Não se seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e formente a sua opnição! 
+Não se seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e fomente a sua opnição! 
 
 O divertido aqui é desenvolver as [proficiências](#proficiências) na prática.
 
@@ -116,8 +116,9 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [X] ~~Formatando documentação README.md~~
 - [X] ~~Indexação completa do vídeo longo: [VIDEO LONGO 5245 – 03.04.07.18.02.41.03 – O que você deveria saber sobre Spring Batch? – Questões](docs/indexacoes/VIDEO%20LONGO%205245%20–%2003.04.07.18.02.41.03%20–%20O%20que%20você%20deveria%20saber%20sobre%20Spring%20Batch?%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Indexação completa da playlist: [PLAYLIST 58 vídeos – 03.04.07.12.09 – CRUD Angular + Spring – Questões](docs/indexacoes/PLAYLIST%2058%20vídeos%20–%2003.04.07.12.09%20–%20CRUD%20Angular%20+%20Spring%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
+- [X] ~~Indexação completa vídeo longo: [VIDEO LONGO 10336 – 03.04.07.62.03.07 – Implement CQRS Design Pattern with SpringBoot – Daily Code Buffer – Questões](docs/indexacoes/VIDEO%20LONGO%2010336%20–%2003.04.07.62.03.07%20–%20Implement%20CQRS%20Design%20Pattern%20with%20SpringBoot%20–%20Daily%20Code%20Buffer%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
-- [ ] Modeloagem 
+- [ ] [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
 - [ ] Descrição sucinta da tarefa a ser feita aqui ......
 - [ ] Descrição sucinta [TRABALHO EM PROGRESSO]
 

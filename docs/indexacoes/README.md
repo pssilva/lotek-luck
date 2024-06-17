@@ -16,6 +16,8 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 
 ### Status Totalmente Indexadas
 
+* [VIDEO LONGO 10336 – 03.04.07.62.03.07 – Implement CQRS Design Pattern with SpringBoot – Daily Code Buffer – Questões](VIDEO%20LONGO%2010336%20–%2003.04.07.62.03.07%20–%20Implement%20CQRS%20Design%20Pattern%20with%20SpringBoot%20–%20Daily%20Code%20Buffer%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
+
 * [VIDEO LONGO 5245 – 03.04.07.18.02.41.03 – O que você deveria saber sobre Spring Batch? – Questões](VIDEO%20LONGO%205245%20–%2003.04.07.18.02.41.03%20–%20O%20que%20você%20deveria%20saber%20sobre%20Spring%20Batch?%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 
 * [PLAYLIST 58 vídeos – 03.04.07.12.09 – CRUD Angular + Spring – Questões](PLAYLIST%2058%20vídeos%20–%2003.04.07.12.09%20–%20CRUD%20Angular%20+%20Spring%20–%20Questões.pdf). Playlist totalmente indexada e relacionada com os questionários de contextos!
