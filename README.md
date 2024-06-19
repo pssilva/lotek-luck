@@ -50,6 +50,39 @@ Projeto inicializado com o [`Scripts de automação próprio`]().
 De que coisas precisamos para instalar o software e como instalá-lo?
 
 ```bash
+
+##############################################
+# Instalação do Java VisualVM (jvisualvm)
+##############################################
+
+## Baixar
+export DEV_TOOLS_PATH="${HOME}/dev_tools"
+mkdir -p "${DEV_TOOLS_PATH}"
+cd "${DEV_TOOLS_PATH}"
+wget "https://github.com/oracle/visualvm/releases/download/2.1.8/visualvm_218.zip"
+sudo unzip visualvm_218.zip -d /opt
+
+
+## Configuar variável PATH
+export SET_VISUAL_VM_PATH=$(cat <<EOF
+
+#############################
+# Config da VisualVM
+#############################
+export VISUALVM_HOME="/opt/visualvm_218"
+export PATH="\${PATH}:\${VISUALVM_HOME}/bin"
+#############################
+EOF
+);
+
+echo -e "${SET_VISUAL_VM_PATH}" >> "${HOME}/.bash_profile"
+
+# Executar
+source "${HOME}/.bash_profile"
+visualvm 
+
+##############################################
+
 ##############################################
 # Instalação o SDKMAN no Fedora
 ##############################################
@@ -129,6 +162,8 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [X] ~~Configuração dos Perfis do artefato: `src/main/resources/application.properties`~~
 - [ ] Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [ ] [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
+- [ ] [Implementar cada de Testes (TDD)](#GONZALEZ_Javier_cap_11): Técnica Red-Green-Refact
+- [ ] [Teste e Monitoramento de Aplicativos Simultâneos](#GONZALEZ_Javier_cap_11): Ferramenta Java VisualVM
 - [ ] Descrição sucinta da tarefa a ser feita aqui ......
 - [ ] Descrição sucinta [TRABALHO EM PROGRESSO]
 
@@ -232,6 +267,13 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](LICE
 Seque abaixo as referências bibliográficas usadas no presente projeto:
 
 ### Livros
+
+---
+
+<p align="justify">
+[<a id="GONZALEZ_Javier_cap_11">GONZÁLEZ, Javier Fernández</a>].
+GONZÁLEZ, Javier Fernández. > Capítulo 11 ■ Teste e Monitoramento de Aplicativos Simultâneos. In:______ Mastering Concurrency Programming with Java 8: Master the principles and techniques of multithreaded programming with the Java 8 Concurrency API. Birmingham B3 2PB, UK.: Published by Packt Publishing Ltd., Copyright © 2016 Packt Publishing. 430 páginas 1 Ed. (Nome da série e/ou coleção, ISBN 978-1-78588-612-6). Disponível em: < <a href="https://a.co/d/08ImIORm"> https://a.co/d/08ImIORm </a> >. Acesso em: 19 jun. 2024.
+</p>
 
 ---
 
