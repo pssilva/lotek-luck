@@ -4,7 +4,7 @@ Se trata de um projeto prático prova de conceito POC para deixar pegadas digita
 
 ## <span style="color:red !important; background-color:yellow !important;">IMPORTANTE</span>
 
-Não se seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e fomente a sua opnição! 
+Não seja ingênuo e tenha em mente o vídeo opinativo: [Loterias são literalmente uma farsa](https://youtu.be/cLWR0d0C13A?si=aiAxv3RVsD5UIggx). E use o seu senso crítco e fomente a sua opnição! 
 
 O divertido aqui é desenvolver as [proficiências](#proficiências) na prática.
 
@@ -272,7 +272,7 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 
 <p align="justify">
 [<a id="GONZALEZ_Javier_cap_11">GONZÁLEZ, Javier Fernández</a>].
-GONZÁLEZ, Javier Fernández. > Capítulo 11 ■ Teste e Monitoramento de Aplicativos Simultâneos. In:______ Mastering Concurrency Programming with Java 8: Master the principles and techniques of multithreaded programming with the Java 8 Concurrency API. Birmingham B3 2PB, UK.: Published by Packt Publishing Ltd., Copyright © 2016 Packt Publishing. 430 páginas 1 Ed. (Nome da série e/ou coleção, ISBN 978-1-78588-612-6). Disponível em: < <a href="https://a.co/d/08ImIORm"> https://a.co/d/08ImIORm </a> >. Acesso em: 19 jun. 2024.
+GONZÁLEZ, Javier Fernández. <a href="https://a.co/d/08ImIORm">Capítulo 11 ■ Teste e Monitoramento de Aplicativos Simultâneos</a>. In:______ Mastering Concurrency Programming with Java 8: Master the principles and techniques of multithreaded programming with the Java 8 Concurrency API. Birmingham B3 2PB, UK.: Published by Packt Publishing Ltd., Copyright © 2016 Packt Publishing. 430 páginas 1 Ed. (Nome da série e/ou coleção, ISBN 978-1-78588-612-6). Disponível em: < <a href="https://a.co/d/08ImIORm"> https://a.co/d/08ImIORm </a> >. Acesso em: 19 jun. 2024.
 </p>
 
 ---
