@@ -1,4 +1,4 @@
-package br.com.Lotek_lock.backend.boot.arch.clean;
+package br.com.Lotek_lock.backend.boot.arch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

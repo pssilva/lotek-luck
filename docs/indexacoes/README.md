@@ -2,6 +2,8 @@
 
 Tendo em mente em aplicar efetivamente a prendizagem continuada (#livelonglearning). 
 
+Aplicando efetivamente na prática a mentalidade de aprendizagem continuada (#livelonglearning).
+
 Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelera (revisão espaçada). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.
 
 E depois se relacionar a indexação com um questionário de contexto onde se busca associar ou relacionar os conceitos com um plano de ação operaiconal de trabalho. E com isso ter condição de criar scritps de automação ou mesmo aplicar o PDCA nas rotinas de trabalho já estabelacidas!
@@ -13,6 +15,8 @@ E **o objetivo é fortalecer a fixação do conceito e o seu uso prátino no pro
 Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações.
 
 ### Status Totalmente Indexadas
+
+* [VIDEO LONGO 10336 – 03.04.07.62.03.07 – Implement CQRS Design Pattern with SpringBoot – Daily Code Buffer – Questões](VIDEO%20LONGO%2010336%20–%2003.04.07.62.03.07%20–%20Implement%20CQRS%20Design%20Pattern%20with%20SpringBoot%20–%20Daily%20Code%20Buffer%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 
 * [VIDEO LONGO 5245 – 03.04.07.18.02.41.03 – O que você deveria saber sobre Spring Batch? – Questões](VIDEO%20LONGO%205245%20–%2003.04.07.18.02.41.03%20–%20O%20que%20você%20deveria%20saber%20sobre%20Spring%20Batch?%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 
