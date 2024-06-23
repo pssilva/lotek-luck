@@ -92,6 +92,12 @@ sdk version
 ##############################################
 
 ##############################################
+# Instalação do Java 17 com o SDKMAN
+##############################################
+sdk install java 17.0.11-amzn -y
+##############################################
+
+##############################################
 # Instalação do NodeJS no Fedora
 ##############################################
 sudo dnf install nodejs.x86_64
@@ -128,15 +134,28 @@ mkdir -p "${HOME}/projetos"
 cd "${HOME}/projetos"
 git clone https://github.com/pssilva/lotek-luck.git
 cd lotek-luck
-code .
+source ~/.bash_profile
+idea .
 ```
 
-Em um terminal execute a aplicação com os seguintes comandos:
+Executar o projeto `lotek-lock-backend-boot`, use os seguintes comandos:
 
 ```bash
-cd "${HOME}/projetos/lotek-luck"
+cd "${HOME}/projetos/lotek-lock-backend-boot"
+sdk use java 17.0.11-amzn
 mvn clean install
+source ~/.bash_profile
+idea .
+```
 
+Executar o projeto `lotek-lock-backend-batch`, use os seguintes comandos:
+
+```bash
+cd "${HOME}/projetos/lotek-lock-backend-batch"
+sdk use java 17.0.11-amzn
+mvn clean install
+source ~/.bash_profile
+idea .
 ```
 
 ## Implantar no Heroku

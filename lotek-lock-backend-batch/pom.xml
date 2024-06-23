@@ -11,7 +11,7 @@
 	<groupId>br.com.Lotek_lock.backend.batch</groupId>
 	<artifactId>lotek-lock-backend-batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>LotekLockBackendBatch</name>
 	<description> Descrição sucinta para o Projeto: LotekLockBackendBatch</description>
 	<properties>
 		<java.version>17</java.version>
