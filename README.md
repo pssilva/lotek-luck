@@ -62,7 +62,6 @@ cd "${DEV_TOOLS_PATH}"
 wget "https://github.com/oracle/visualvm/releases/download/2.1.8/visualvm_218.zip"
 sudo unzip visualvm_218.zip -d /opt
 
-
 ## Configuar variável PATH
 export SET_VISUAL_VM_PATH=$(cat <<EOF
 
