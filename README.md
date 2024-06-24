@@ -130,6 +130,8 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
   - [ ] Criar Casos de Uso Arquitetura Limpa
 - [ ] Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [ ] [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
+  - [ ] Aplicar técncia para análise explorativa da implementação do [AxonFramework](https://github.com/AxonFramework/AxonFramework) e dos seus respectivos conceitos: [DDD, CQRS, Microservices e Event Sourcing](https://www.axoniq.io/concepts)
+  - [ ] Aplicar técncia para análise explorativa da implementação do [Axon Server](https://github.com/AxonIQ/axon-server-se)
 - [ ] [Implementar cada de Testes (TDD)](#GONZALEZ_Javier_cap_11): Técnica Red-Green-Refact
 - [ ] [Teste e Monitoramento de Aplicativos Simultâneos](#GONZALEZ_Javier_cap_11): Ferramenta Java VisualVM
 - [ ] Descrição sucinta da tarefa a ser feita aqui ......
