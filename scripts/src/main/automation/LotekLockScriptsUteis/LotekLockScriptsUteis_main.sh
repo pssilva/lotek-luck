@@ -139,6 +139,142 @@ export -f LotekLockScriptsUteis.menu
 
 #########################################################
 #
+# Describe:  Instalação do Java VisualVM (jvisualvm)
+#
+# Referencia:
+#
+#########################################################
+function LotekLockScriptsUteis.installToolJavaVisualVM(){
+
+	##############################################
+	# Instalação do Java VisualVM (jvisualvm)
+	##############################################
+
+	## Baixar
+	export DEV_TOOLS_PATH="${HOME}/dev_tools"
+	mkdir -p "${DEV_TOOLS_PATH}"
+	cd "${DEV_TOOLS_PATH}"
+	wget "https://github.com/oracle/visualvm/releases/download/2.1.8/visualvm_218.zip"
+	sudo unzip visualvm_218.zip -d /opt
+
+	## Configuar variável PATH
+	export SET_VISUAL_VM_PATH=$(cat <<EOF
+#############################
+# Config da VisualVM
+#############################
+export VISUALVM_HOME="/opt/visualvm_218"
+export PATH="\${PATH}:\${VISUALVM_HOME}/bin"
+#############################
+EOF
+);
+
+	echo -e "${SET_VISUAL_VM_PATH}" >> "${HOME}/.bash_profile"
+
+	# Executar
+	source "${HOME}/.bash_profile"
+	visualvm
+
+}
+
+export -f LotekLockScriptsUteis.installToolJavaVisualVM
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação o Axon Server
+#
+# Referencia:
+#
+#########################################################
+function LotekLockScriptsUteis.installToolAxonServer(){
+
+##############################################
+# Instalação o Axon Server
+##############################################
+export DEV_TOOLS_PATH="${HOME}/projetos/dev_tools"
+mkdir -p "${DEV_TOOLS_PATH}"
+cd "${DEV_TOOLS_PATH}"
+wget "https://download.axoniq.io/axonserver/AxonServer.zip"
+unzip AxonServer.zip
+cd axonserver-*
+java -jar axonserver.jar
+##############################################
+
+}
+
+export -f LotekLockScriptsUteis.installToolAxonServer
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação o SDKMAN no Fedora
+#
+# Referencia:
+#
+#########################################################
+function LotekLockScriptsUteis.installToolSDKMAN(){
+
+##############################################
+# Instalação o SDKMAN no Fedora
+##############################################
+curl -s get.sdkman.io | bash
+source "${HOME}/.sdkman/bin/sdkman-init.sh"
+sdk version
+##############################################
+
+}
+
+export -f LotekLockScriptsUteis.installToolSDKMAN
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação do Java com o SDKMAN
+#
+# Referencia:
+#
+#########################################################
+function LotekLockScriptsUteis.installToolJavaComJDK(){
+
+	export SDK_JAVA_VERSION="$1"
+
+	if [[ "${SDK_JAVA_VERSION}" == "" ]]
+	then
+		SDK_JAVA_VERSION="17.0.11-amzn"
+	fi
+
+##############################################
+# Instalação do Java com o SDKMAN
+##############################################
+sdk install java "${SDK_JAVA_VERSION}" -y
+##############################################
+
+}
+
+export -f LotekLockScriptsUteis.installToolJavaComJDK
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação de todas as ferramentas
+#
+# Referencia:
+#
+#########################################################
+function LotekLockScriptsUteis.installAllTools(){
+
+  LotekLockScriptsUteis.installToolJavaVisualVM
+  LotekLockScriptsUteis.installToolAxonServer
+  LotekLockScriptsUteis.installToolSDKMAN
+  LotekLockScriptsUteis.installToolJavaComJDK "17.0.11-amzn"
+
+}
+
+export -f LotekLockScriptsUteis.installAllTools
+#########################################################
+
+#########################################################
+#
 # Função Principal: Main do projeto: LotekLockScriptsUteis
 # $1: Primeiro parametro da função
 # Referencia: @see 

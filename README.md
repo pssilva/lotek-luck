@@ -45,85 +45,6 @@ Projeto inicializado com o [`Scripts de automação próprio`]().
 
 ## 🚀 Começando
 
-### 📋 Pré-requisitos
-
-De que coisas precisamos para instalar o software e como instalá-lo?
-
-```bash
-
-##############################################
-# Instalação do Java VisualVM (jvisualvm)
-##############################################
-
-## Baixar
-export DEV_TOOLS_PATH="${HOME}/dev_tools"
-mkdir -p "${DEV_TOOLS_PATH}"
-cd "${DEV_TOOLS_PATH}"
-wget "https://github.com/oracle/visualvm/releases/download/2.1.8/visualvm_218.zip"
-sudo unzip visualvm_218.zip -d /opt
-
-## Configuar variável PATH
-export SET_VISUAL_VM_PATH=$(cat <<EOF
-
-#############################
-# Config da VisualVM
-#############################
-export VISUALVM_HOME="/opt/visualvm_218"
-export PATH="\${PATH}:\${VISUALVM_HOME}/bin"
-#############################
-EOF
-);
-
-echo -e "${SET_VISUAL_VM_PATH}" >> "${HOME}/.bash_profile"
-
-# Executar
-source "${HOME}/.bash_profile"
-visualvm 
-
-##############################################
-
-##############################################
-# Instalação o SDKMAN no Fedora
-##############################################
-curl -s get.sdkman.io | bash
-source "${HOME}/.sdkman/bin/sdkman-init.sh"
-sdk version
-##############################################
-
-##############################################
-# Instalação do Java 17 com o SDKMAN
-##############################################
-sdk install java 17.0.11-amzn -y
-##############################################
-
-##############################################
-# Instalação do NodeJS no Fedora
-##############################################
-sudo dnf install nodejs.x86_64
-node -v
-##############################################
-
-##############################################
-# Instalação do Node Version Manager no Fedora
-##############################################
-export NVM_VERSION="v0.39.3"
-
-curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh" | bash
-
-nvm -v
-nvm install --lts
-
-##############################################
-
-##############################################
-# Instalação Typescript, Angular 
-##############################################
-export NG_CLI_VERSION="17.3.3"
-npm install -g typescript "@angular/cli@${NG_CLI_VERSION}"
-##############################################
-
-```
-
 ### 🔧 Instalação
 
 Para obter o presente projeto use os seguintes comandos:
@@ -137,6 +58,29 @@ source ~/.bash_profile
 idea .
 ```
 
+
+#### 📋 Pré-requisitos
+
+Depois de baixar o projeto: De que coisas precisamos para atuar no projeto `lotek-lock` e executá-lo?
+Para isso, use os comandos do script de automação:
+
+```bash
+
+export ARTIFACT_ID="lotek-lock"
+export TOOL_NAME="LotekLockScriptsUteis"
+export SCRIPT_PATH="${HOME}/projetos${ARTIFACT_ID}/scripts"
+export AUTOMATION_PATH="${SCRIPT_PATH}/src/main/automation"
+export TOOL_PATH="${AUTOMATION_PATH}/${TOOL_NAME}"
+
+source "${TOOL_PATH}/LotekLockScriptsUteis_main.sh"
+
+LotekLockScriptsUteis.installAllTools
+
+```
+
+#### Módulos Internos
+
+Depois de instalar as ferramentas necessárias.
 Executar o projeto `lotek-lock-backend-boot`, use os seguintes comandos:
 
 ```bash
