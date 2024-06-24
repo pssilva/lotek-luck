@@ -124,6 +124,10 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [X] ~~Indexação completa da playlist: [PLAYLIST 58 vídeos – 03.04.07.12.09 – CRUD Angular + Spring – Questões](docs/indexacoes/PLAYLIST%2058%20vídeos%20–%2003.04.07.12.09%20–%20CRUD%20Angular%20+%20Spring%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Indexação completa vídeo longo: [VIDEO LONGO 10336 – 03.04.07.62.03.07 – Implement CQRS Design Pattern with SpringBoot – Daily Code Buffer – Questões](docs/indexacoes/VIDEO%20LONGO%2010336%20–%2003.04.07.62.03.07%20–%20Implement%20CQRS%20Design%20Pattern%20with%20SpringBoot%20–%20Daily%20Code%20Buffer%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Configuração dos Perfis do artefato: `src/main/resources/application.properties`~~
+- [ ] Scritps de Automação
+  - [X] ~~instalação das Ferramentas de Desenvolvimento.~~
+  - [ ] Criar Casos de Uso Arquitetura CQRS
+  - [ ] Criar Casos de Uso Arquitetura Limpa
 - [ ] Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [ ] [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
 - [ ] [Implementar cada de Testes (TDD)](#GONZALEZ_Javier_cap_11): Técnica Red-Green-Refact
