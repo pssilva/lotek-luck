@@ -62,6 +62,7 @@ idea .
 #### 📋 Pré-requisitos
 
 Depois de baixar o projeto: De que coisas precisamos para atuar no projeto `lotek-lock` e executá-lo?
+
 Para isso, use os comandos do script de automação:
 
 ```bash
@@ -81,6 +82,7 @@ LotekLockScriptsUteis.installAllTools
 #### Módulos Internos
 
 Depois de instalar as ferramentas necessárias.
+
 Executar o projeto `lotek-lock-backend-boot`, use os seguintes comandos:
 
 ```bash
