@@ -45,6 +45,39 @@ Projeto inicializado com o [`Scripts de automação próprio`]().
 
 ## 🚀 Começando
 
+### 📋 Pré-requisitos
+
+De que coisas precisamos para instalar o software e como instalá-lo?
+
+```bash
+##############################################
+# Instalação do NodeJS no Fedora
+##############################################
+sudo dnf install nodejs.x86_64
+node -v
+##############################################
+
+##############################################
+# Instalação do Node Version Manager no Fedora
+##############################################
+export NVM_VERSION="v0.39.3"
+
+curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh" | bash
+
+nvm -v
+nvm install --lts
+
+##############################################
+
+##############################################
+# Instalação Typescript, Angular 
+##############################################
+export NG_CLI_VERSION="17.3.3"
+npm install -g typescript "@angular/cli@${NG_CLI_VERSION}"
+##############################################
+
+```
+
 ### 🔧 Instalação
 
 Para obter o presente projeto use os seguintes comandos:
@@ -54,8 +87,7 @@ mkdir -p "${HOME}/projetos"
 cd "${HOME}/projetos"
 git clone https://github.com/pssilva/lotek-luck.git
 cd lotek-luck
-source ~/.bash_profile
-idea .
+code .
 ```
 
 
@@ -66,41 +98,8 @@ Depois de baixar o projeto: De que coisas precisamos para atuar no projeto `lote
 Para isso, use os comandos do script de automação:
 
 ```bash
+cd "${HOME}/projetos/lotek-luck"
 
-export ARTIFACT_ID="lotek-lock"
-export TOOL_NAME="LotekLockScriptsUteis"
-export SCRIPT_PATH="${HOME}/projetos${ARTIFACT_ID}/scripts"
-export AUTOMATION_PATH="${SCRIPT_PATH}/src/main/automation"
-export TOOL_PATH="${AUTOMATION_PATH}/${TOOL_NAME}"
-
-source "${TOOL_PATH}/LotekLockScriptsUteis_main.sh"
-
-LotekLockScriptsUteis.installAllTools
-
-```
-
-#### Módulos Internos
-
-Depois de instalar as ferramentas necessárias.
-
-Executar o projeto `lotek-lock-backend-boot`, use os seguintes comandos:
-
-```bash
-cd "${HOME}/projetos/lotek-lock-backend-boot"
-sdk use java 17.0.11-amzn
-mvn clean install
-source ~/.bash_profile
-idea .
-```
-
-Executar o projeto `lotek-lock-backend-batch`, use os seguintes comandos:
-
-```bash
-cd "${HOME}/projetos/lotek-lock-backend-batch"
-sdk use java 17.0.11-amzn
-mvn clean install
-source ~/.bash_profile
-idea .
 ```
 
 ## Implantar no Heroku
@@ -123,12 +122,12 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [X] ~~Indexação completa do vídeo longo: [VIDEO LONGO 5245 – 03.04.07.18.02.41.03 – O que você deveria saber sobre Spring Batch? – Questões](docs/indexacoes/VIDEO%20LONGO%205245%20–%2003.04.07.18.02.41.03%20–%20O%20que%20você%20deveria%20saber%20sobre%20Spring%20Batch?%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Indexação completa da playlist: [PLAYLIST 58 vídeos – 03.04.07.12.09 – CRUD Angular + Spring – Questões](docs/indexacoes/PLAYLIST%2058%20vídeos%20–%2003.04.07.12.09%20–%20CRUD%20Angular%20+%20Spring%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Indexação completa vídeo longo: [VIDEO LONGO 10336 – 03.04.07.62.03.07 – Implement CQRS Design Pattern with SpringBoot – Daily Code Buffer – Questões](docs/indexacoes/VIDEO%20LONGO%2010336%20–%2003.04.07.62.03.07%20–%20Implement%20CQRS%20Design%20Pattern%20with%20SpringBoot%20–%20Daily%20Code%20Buffer%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/README.md))
+- [X] ~~Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf)~~(mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [X] ~~Configuração dos Perfis do artefato: `src/main/resources/application.properties`~~
 - [ ] Scritps de Automação
   - [X] ~~instalação das Ferramentas de Desenvolvimento.~~
   - [ ] Criar Casos de Uso Arquitetura CQRS
   - [ ] Criar Casos de Uso Arquitetura Limpa
-- [ ] Indexação completa da Playlist: [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](docs/indexacoes/PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
 - [ ] [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
   - [ ] Aplicar técncia para análise explorativa da implementação do [AxonFramework](https://github.com/AxonFramework/AxonFramework) e dos seus respectivos conceitos: [DDD, CQRS, Microservices e Event Sourcing](https://www.axoniq.io/concepts)
   - [ ] Aplicar técncia para análise explorativa da implementação do [Axon Server](https://github.com/AxonIQ/axon-server-se)
@@ -237,19 +236,6 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](LICE
 Seque abaixo as referências bibliográficas usadas no presente projeto:
 
 ### Livros
-
----
-
-<p align="justify">
-[<a id="GONZALEZ_Javier_cap_11">GONZÁLEZ, Javier Fernández</a>].
-GONZÁLEZ, Javier Fernández. <a href="https://a.co/d/08ImIORm">Capítulo 11 ■ Teste e Monitoramento de Aplicativos Simultâneos</a>. In:______ Mastering Concurrency Programming with Java 8: Master the principles and techniques of multithreaded programming with the Java 8 Concurrency API. Birmingham B3 2PB, UK.: Published by Packt Publishing Ltd., Copyright © 2016 Packt Publishing. 430 páginas 1 Ed. (Nome da série e/ou coleção, ISBN 978-1-78588-612-6). Disponível em: < <a href="https://a.co/d/08ImIORm"> https://a.co/d/08ImIORm </a> >. Acesso em: 19 jun. 2024.
-</p>
-
----
-
-<p align="justify">
-[<a id="GOODRICH-Michael-T">GOODRICH, Michael T; TAMASSIA, Roberto</a>]. PROJETO DE ALGORITMOS: Fundamentos, análise e exemplos da Internet. 1 Ed. Cidade da publicação: Bookman; 1ª edição (25 março 2004), ©2002 John Wiley & Sons, Inc. 696 páginas. (Nome da série e/ou coleção, ISBN 978-85-7780-342-2). Disponível em: < <a href="https://a.co/d/3Co91c3">https://a.co/d/3Co91c3</a> >. Acesso em: 15 jun. 2024.
-</p>
 
 ---
 
