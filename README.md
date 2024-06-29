@@ -87,7 +87,8 @@ mkdir -p "${HOME}/projetos"
 cd "${HOME}/projetos"
 git clone https://github.com/pssilva/lotek-luck.git
 cd lotek-luck
-code .
+source ~/.bash_profile
+idea .
 ```
 
 
@@ -98,8 +99,41 @@ Depois de baixar o projeto: De que coisas precisamos para atuar no projeto `lote
 Para isso, use os comandos do script de automação:
 
 ```bash
-cd "${HOME}/projetos/lotek-luck"
 
+export ARTIFACT_ID="lotek-lock"
+export TOOL_NAME="LotekLockScriptsUteis"
+export SCRIPT_PATH="${HOME}/projetos${ARTIFACT_ID}/scripts"
+export AUTOMATION_PATH="${SCRIPT_PATH}/src/main/automation"
+export TOOL_PATH="${AUTOMATION_PATH}/${TOOL_NAME}"
+
+source "${TOOL_PATH}/LotekLockScriptsUteis_main.sh"
+
+LotekLockScriptsUteis.installAllTools
+
+```
+
+#### Módulos Internos
+
+Depois de instalar as ferramentas necessárias.
+
+Executar o projeto `lotek-lock-backend-boot`, use os seguintes comandos:
+
+```bash
+cd "${HOME}/projetos/lotek-lock-backend-boot"
+sdk use java 17.0.11-amzn
+mvn clean install
+source ~/.bash_profile
+idea .
+```
+
+Executar o projeto `lotek-lock-backend-batch`, use os seguintes comandos:
+
+```bash
+cd "${HOME}/projetos/lotek-lock-backend-batch"
+sdk use java 17.0.11-amzn
+mvn clean install
+source ~/.bash_profile
+idea .
 ```
 
 ## Implantar no Heroku
