@@ -1,7 +1,5 @@
 # Indexação de Vídeos
 
-Tendo em mente em aplicar efetivamente a prendizagem continuada (#livelonglearning). 
-
 Aplicando efetivamente na prática a mentalidade de aprendizagem continuada (#livelonglearning).
 
 Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelera (revisão espaçada). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.

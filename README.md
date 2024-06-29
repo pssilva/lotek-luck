@@ -45,39 +45,6 @@ Projeto inicializado com o [`Scripts de automação próprio`]().
 
 ## 🚀 Começando
 
-### 📋 Pré-requisitos
-
-De que coisas precisamos para instalar o software e como instalá-lo?
-
-```bash
-##############################################
-# Instalação do NodeJS no Fedora
-##############################################
-sudo dnf install nodejs.x86_64
-node -v
-##############################################
-
-##############################################
-# Instalação do Node Version Manager no Fedora
-##############################################
-export NVM_VERSION="v0.39.3"
-
-curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh" | bash
-
-nvm -v
-nvm install --lts
-
-##############################################
-
-##############################################
-# Instalação Typescript, Angular 
-##############################################
-export NG_CLI_VERSION="17.3.3"
-npm install -g typescript "@angular/cli@${NG_CLI_VERSION}"
-##############################################
-
-```
-
 ### 🔧 Instalação
 
 Para obter o presente projeto use os seguintes comandos:
